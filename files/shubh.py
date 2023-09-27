@@ -1,0 +1,1 @@
+print('bhauuu faus fuas faus')
