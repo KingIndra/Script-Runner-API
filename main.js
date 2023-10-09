@@ -17,6 +17,10 @@ app.get('/', authenticateKey, function(req, res) {
     sendOutput(res, file_path, extention(language))
 })
 
+app.get('/ping', function(req, res) {
+    res.send('pong')
+})
+
 app.listen(3000,function() {
     console.log("Server listening on port 3000")
 })
